@@ -1,0 +1,236 @@
+@import url(http://fonts.googleapis.com/css?family=Nunito); /*--- CHANGE Body Font --*/
+@import url(http://fonts.googleapis.com/css?family=Oxygen); /*--- CHANGE Heading Font--*/
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One); /*--- CHANGE Navigation Font --*/
+
+* {
+ margin: 0;
+ padding: 0;
+}
+
+body {
+  background: #f5f5f5;
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+}
+
+h1 {
+  font-family: 'Oxigen', sans-serif;
+  text-align: center;
+  font-size: 175%;
+  color:#35404f;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 3% 0%;
+}
+
+h2, h3, h4 {
+  font-family: 'Oxigen', sans-serif;
+  text-align: center;
+  color:#35404f;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+p{
+  padding: 2%;
+  color: #525453;
+  text-align: justify;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#wrapper {
+   margin: 0 auto;
+   max-width: 1120px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+header {
+    width: 97%;
+ }
+
+#logo {
+    float: left;
+    margin: 3% 0 0 5%;
+}
+
+#callout {
+    float: right;
+    margin: 6% 3% 2% 0;
+}
+
+#callout h2 {
+   text-align: right;
+   color:#787878;
+}
+
+#banner-wrapper {
+    max-width: 1020px;
+    margin: 0 auto;
+    padding-bottom: 3%;
+}
+
+.slider1 img {
+    width: 100%;
+}
+
+.bx-prev, .bx-next {
+     display: none;
+}
+
+.one-third {
+    width: 28%;
+    float: left;
+    margin: 2% 0 3% 4%;
+}
+
+.chart {
+    padding: 0 7%;
+}
+
+h2.welcome {
+    margin-top: 4%;
+}
+
+.left-col {
+    width: 60%;
+    float: left;
+    margin: 4% 0 4% 4%;
+}
+
+.sidebar {
+    width: 26%;
+    float: left;
+    margin: 4%;
+}
+
+sidebar img {
+    opacity: .7;
+    
+}
+
+footer {
+    background: #d3d3d3;
+    width: 100%;
+    padding-top: 1%;
+    overflow: auto;
+}
+
+.one-half {
+    width: 44%;
+    float: left;
+    margin: 2% 0 3% 4%;
+}
+
+footer h3 {
+    text-decoration: underline;
+}
+
+.footercontact {
+    text-align: center;
+}
+
+/*=========== Media Queries ==========*/
+
+@media screen and (max-width: 769px) {
+    #wrapper {
+       margin-top: -1%; 
+    }
+    #callout {
+        width: 100%;
+        margin: 3% 0 2% 0;
+    }
+    .one-third {
+        width: 100%;
+        margin: 4% 0;
+    }
+    h1 {
+        font-size: 125%;
+        letter-spacing: 2px;
+    }
+    .left-col {
+        width: 100%;
+        margin: 0 0 3% 0;
+    }
+    .sidebar {
+        width: 100%;
+        margin: 0;
+    }
+    .sidebar img {
+        opacity: 1;
+    }
+    .one-half {
+        width: 100%;
+        margin: 0;
+    }
+    #philosophy {
+        margin-top: 6%;
+    }
+    img {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
